@@ -1,1 +1,1 @@
-bellsoft/liberica-openjdk-alpine-musl:8
+mysql:8.4.0-linux-arm64v8
