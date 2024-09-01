@@ -1,8 +1,9 @@
-nginx:mainline-alpine3.17-slim
-redis:7.2-rc2-alpine3.18
-bellsoft/liberica-openjdk-alpine-musl:8
-bellsoft/liberica-openjdk-alpine-musl:18
-bellsoft/liberica-openjdk-alpine-musl:21
-mysql:8.4.0
-biarms/mysql:5.7.30-linux-arm64v8
-openjdk:8u212-jre-alpine3.9
+#nginx:mainline-alpine3.17-slim
+#redis:7.2-rc2-alpine3.18
+#bellsoft/liberica-openjdk-alpine-musl:8
+#bellsoft/liberica-openjdk-alpine-musl:18
+#bellsoft/liberica-openjdk-alpine-musl:21
+#mysql:8.4.0
+#biarms/mysql:5.7.30-linux-arm64v8
+#openjdk:8u212-jre-alpine3.9
+biarms/mysql:8.4.0-linux-arm64v8
