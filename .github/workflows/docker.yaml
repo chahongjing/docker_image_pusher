@@ -58,9 +58,6 @@ jobs:
     - name: Build and push image Aliyun
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
-        echo $ALIYUN_REGISTRY_USER
-        echo $ALIYUN_REGISTRY_PASSWORD
-        echo $ALIYUN_REGISTRY
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
@@ -145,8 +142,7 @@ jobs:
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
-            # docker push $new_image
-            docker push registry.cn-hangzhou.aliyuncs.com/chahongjing/aliyun_name_space:nginx
+            docker push $new_image
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
