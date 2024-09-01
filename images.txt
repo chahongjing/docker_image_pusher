@@ -4,5 +4,5 @@ bellsoft/liberica-openjdk-alpine-musl:8
 bellsoft/liberica-openjdk-alpine-musl:18
 bellsoft/liberica-openjdk-alpine-musl:21
 mysql:8.4.0
-mysql:5.7.30-linux-arm64v8
+biarms/mysql:5.7.30-linux-arm64v8
 openjdk:8u212-jre-alpine3.9
