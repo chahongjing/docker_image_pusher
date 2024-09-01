@@ -1,1 +1,1 @@
-biarms/mysql:5.7.42-linux-arm64v8
+biarms/mysql:5.7.30-linux-arm64v8
