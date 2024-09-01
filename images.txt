@@ -1,2 +1,1 @@
-nginx
-redis
+biarms/mysql:5.7.42-linux-arm64v8
