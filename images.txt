@@ -1,1 +1,2 @@
-biarms/mysql:5.7.30-linux-arm64v8
+openjdk:8u212-jre-alpine3.9
+bellsoft/liberica-openjdk-alpine-musl:18
