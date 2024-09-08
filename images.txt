@@ -7,5 +7,5 @@
 #biarms/mysql:5.7.30-linux-arm64v8
 #openjdk:8u212-jre-alpine3.9
 #python:3.8
---platform=arm64 python:3.8-alpine3.12
---platform=arm64 python:2.7-alpine
+--platform=Linux/arm64 python:3.8-alpine3.12
+--platform=Linux/arm64 python:2.7-alpine
